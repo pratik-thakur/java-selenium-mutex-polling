@@ -1,0 +1,4 @@
+target/
+.vscode
+browserstack.err
+.idea/
