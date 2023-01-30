@@ -43,7 +43,7 @@ class ParallelTest1 implements Runnable {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("bstack:options", capsHashtable);
         caps.setCapability("sessionName", searchText); // test name
-        caps.setCapability("buildName", "Coin DCX"); // CI/CD job or build name
+        caps.setCapability("buildName", "data-provider"); // CI/CD job or build name
         WebDriver driver;
         try {
             driver = new RemoteWebDriver(new URL(URL), caps);
